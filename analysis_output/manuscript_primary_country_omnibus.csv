@@ -1,0 +1,5 @@
+outcome,analysis_design,n_participants,n_israel,n_germany,n_china_group,wald_chi2,df,p_value,robust_model_r_squared,p_holm
+character_connection,within_participant_difference_score,146,49,43,54,9.344595509762135,2,0.009350759071295027,0.04990393447902386,0.03740303628518011
+satisfaction,within_participant_difference_score,146,49,43,54,1.1013902864710248,2,0.5765488869883072,0.006554797546965974,1.0
+knowledge_accuracy,within_participant_difference_score,146,49,43,54,1.2810532751399761,2,0.5270148051508632,0.008695331929774452,1.0
+importance_change,first_interaction_condition_by_country_HC3,146,49,43,54,1.1055832643801635,2,0.5753414247728256,0.02779854210203936,1.0

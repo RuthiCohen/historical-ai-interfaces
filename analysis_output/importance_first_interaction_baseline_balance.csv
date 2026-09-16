@@ -1,0 +1,2 @@
+comparison,n_avatar_first,n_chat_first,avatar_first_baseline_mean,chat_first_baseline_mean,mean_difference,ci95_low,ci95_high,welch_t,welch_df,p_value,mann_whitney_u,mann_whitney_p
+baseline_by_first_assigned_condition,73,73,4.465753424657534,4.36986301369863,0.09589041095890405,-0.15279636957944784,0.34457719149725596,0.7622517090726586,141.5910780669145,0.4471777053181447,2799.5,0.5533914199525456

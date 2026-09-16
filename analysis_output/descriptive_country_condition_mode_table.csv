@@ -1,0 +1,8 @@
+country,condition,mixed,typed_only,voice_only,All
+china,Avatar,5,40,9,54
+china,Chat,8,44,2,54
+germany,Avatar,4,21,18,43
+germany,Chat,0,43,0,43
+israel,Avatar,2,6,41,49
+israel,Chat,8,38,3,49
+All,,27,192,73,292

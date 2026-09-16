@@ -1,0 +1,34 @@
+LLM COUNTRY ANALYSIS - FULL CORPUS
+================================================
+
+Messages: 2182
+Participants: 146
+Message counts: {'Israel': 849, 'Germany': 724, 'China': 609}
+Participant counts: {'Israel': 49, 'Germany': 43, 'China': 54}
+
+Primary inference: participant-level category rates + Kruskal-Wallis; BH-FDR across 18 semantic-category tests within each judge.
+
+HUMAN VALIDATION (two independent human coders):
+- tone: human-human=77.0% (kappa=0.408); human1-majority=68.8% (kappa=0.281, n=96); human2-majority=69.8% (kappa=0.334, n=96)
+- addressForm: human-human=93.0% (kappa=0.768); human1-majority=93.0% (kappa=0.789, n=100); human2-majority=93.0% (kappa=0.759, n=100)
+- questionStyle: human-human=59.0% (kappa=0.495); human1-majority=66.3% (kappa=0.567, n=98); human2-majority=65.3% (kappa=0.559, n=98)
+
+ROBUST ACROSS ALL THREE INDIVIDUAL LLM JUDGES (q < .05 in each):
+- tone / emotional
+  gemini-flash: Israel=4.1%, Germany=5.3%, China=11.8%, q=0.0009694
+  gpt-54: Israel=8.4%, Germany=12.2%, China=21.1%, q=0.03063
+  claude-sonnet-5: Israel=8.1%, Germany=10.2%, China=16.8%, q=0.03071
+- questionStyle / evaluative
+  gemini-flash: Israel=4.8%, Germany=14.7%, China=16.3%, q=0.0001336
+  gpt-54: Israel=6.2%, Germany=18.7%, China=18.6%, q=0.0004103
+  claude-sonnet-5: Israel=6.9%, Germany=19.9%, China=20.1%, q=0.000147
+
+SIGNIFICANT MAJORITY-VOTE RESULTS:
+- questionStyle / evaluative: Israel=5.5%, Germany=17.6%, China=17.8%, q=0.000188
+- tone / emotional: Israel=6.0%, Germany=7.2%, China=15.7%, q=0.004485
+- tone / neutral: Israel=65.2%, Germany=69.1%, China=52.5%, q=0.01108
+- questionStyle / factual_closed: Israel=12.7%, Germany=14.3%, China=8.1%, q=0.02944
+- questionStyle / factual_open: Israel=17.3%, Germany=13.2%, China=9.9%, q=0.02944
+- questionStyle / other: Israel=6.0%, Germany=2.8%, China=8.8%, q=0.04172
+
+Interpretation rule: strongest findings are those that are directionally consistent and FDR-significant in all three individual judges, not merely in the pooled majority.

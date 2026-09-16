@@ -1,0 +1,4 @@
+country,outcome,n_pairs,chat_no_avatar_yes,chat_yes_avatar_no,discordant_pairs,mcnemar_statistic_continuity_corrected,p_value,p_holm_across_countries
+israel,used_voice,49,32,0,32,30.03125,4.656612873077393e-10,1.3969838619232178e-09
+germany,used_voice,43,22,0,22,20.045454545454547,4.76837158203125e-07,9.5367431640625e-07
+china,used_voice,54,6,2,8,1.125,0.2890625,0.2890625

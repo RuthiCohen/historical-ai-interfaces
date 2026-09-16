@@ -1,0 +1,5 @@
+outcome,moderator,analysis_design,interaction_df,wald_chi2,p_value,p_holm
+character_connection,gender_normalized,repeated_measures_condition_interaction,1,0.0021567076058868237,0.962959263688228,1.0
+satisfaction,gender_normalized,repeated_measures_condition_interaction,1,0.34900502260485433,0.5546769037064732,1.0
+knowledge_accuracy,gender_normalized,repeated_measures_condition_interaction,1,0.5059113021858752,0.47691419905960475,1.0
+importance_change,gender_normalized,first_interaction_between_participants,1,0.0443202630483434,0.8332588917104395,1.0

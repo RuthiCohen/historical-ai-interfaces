@@ -1,0 +1,3 @@
+outcomes,analysis_design,n_group_1,n_group_2,two_sided_alpha_benchmark,target_power,minimum_detectable_abs_effect,effect_metric,interpretation
+"character_connection, satisfaction, knowledge_accuracy",paired,146,146,0.0125,0.8,0.2793765750477127,Cohen's dz,conservative paired-test sensitivity benchmark; not an equivalence bound
+importance_change,between_participants_first_interaction_only,73,73,0.0125,0.8,0.5587980049392232,Cohen's d,conservative independent-groups first-interaction sensitivity benchmark; not an equivalence bound

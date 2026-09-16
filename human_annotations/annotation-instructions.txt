@@ -1,0 +1,84 @@
+# Coding Guidelines
+
+Each row contains one participant message.
+
+Code **only `user_message_to_code`**.
+
+You may use `previous_agent_response_context` to understand what the participant is referring to, especially in short messages such as “why?”, “no”, or “what happened next?”, but **do not code the character’s response itself**.
+
+`source_row_index` is a technical identifier only and must not be used when making coding decisions.
+
+Do not attempt to infer or guess the participant’s country, interface type, character, or any other information about the participant. Base your judgment only on the conversation text shown.
+
+Select **one label only** for each field.
+
+## 1. Tone
+
+* `neutral` — matter-of-fact or direct, no prominent tone.
+* `casual` — very conversational, abbreviated, or slang-like.
+* `respectful` — clear respect, appreciation, or prominent politeness, explicitly expressed toward the character.
+* `emotional` — the participant explicitly expresses their own emotion (sadness, fear, shock, joy, excitement, or similar).
+* `uncertain` — the participant explicitly expresses hesitation, doubt, or confusion.
+* `confrontational` — direct challenge, accusation, disagreement, or criticism.
+
+A difficult or traumatic topic alone is not sufficient to label a message as `emotional`.
+
+Spelling or grammatical errors alone are not sufficient to label a message as `casual`.
+
+
+## 2. Address Form
+
+* `informal_you` — ordinary second-person address, for example `you/your`.
+* `formal_you` — highly formal address or an explicitly formal second-person form. In languages with a grammatical distinction, such as `Sie` in German, use this category.
+* `named_honorific` — address by name or title, for example Ben, Mr. Lesser, Sir.
+* `no_direct_address` — no direct form of address.
+* `other` — another form of address.
+
+In English, ordinary `you` should generally be coded as `informal_you`.
+
+Do not code `formal_you` merely because the wording is polite.
+
+## 3. Question Style
+
+* `experiential` — asks the character to describe a personal experience, feeling, or something they personally went through.
+* `factual_open` — an open-ended request for factual information: who, what, where, when, or how, without emphasizing personal experience or a process.
+* `factual_closed` — asks for a specific or constrained answer, usually yes/no or a short factual detail.
+* `evaluative` — asks for an opinion, judgment, meaning, importance, or lesson.
+* `relational` — an interpersonal act such as a greeting, thanks, apology, concern, or empathy.
+* `procedural` — asks about a process, sequence, or progression of events: how something happened or what happened next.
+* `other` — does not clearly fit the other categories.
+
+Decision rules:
+
+* Personal experience or how the person experienced something → `experiential`
+* Process / sequence / what happened next → `procedural`
+* Open factual information → `factual_open`
+* Yes/no answer or a specific detail → `factual_closed`
+
+The word `how` alone does not determine the category. Consider what the participant is actually asking to know.
+
+## Relational vs. Emotional
+
+If the main function of the message is a social or interpersonal act, for example:
+
+“Thank you”
+“I’m sorry”
+“I’m with you”
+
+→ `relational`
+
+If emotion is a central part of the question or message itself, rather than merely an interpersonal gesture, `emotional` may be selected for Tone.
+
+Important: Tone and Question Style are separate fields, so a message may, for example, be `emotional` in Tone and `relational` in Question Style.
+
+## In Cases of Uncertainty
+
+If the decision is clear:
+
+`human_uncertain = no`
+
+If two categories both seem plausible and the distinction is difficult:
+
+1. Choose the category that fits best.
+2. Mark `human_uncertain = yes`.
+3. In `human_notes`, briefly state which categories you were deciding between.

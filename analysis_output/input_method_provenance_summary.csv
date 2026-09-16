@@ -1,0 +1,4 @@
+scope,input_method_source,n_messages,total_messages_in_scope
+all_extracted_user_turns,main_event_payload,2560,2560
+before_greeting_removal,main_event_payload,2560,2560
+final_genuine_messages,main_event_payload,2206,2206

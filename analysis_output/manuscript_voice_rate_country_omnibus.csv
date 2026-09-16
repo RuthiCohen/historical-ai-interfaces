@@ -1,0 +1,2 @@
+outcome,analysis_design,n_participants,n_israel,n_germany,n_china_group,wald_chi2,df,p_value,robust_model_r_squared,p_holm
+voice_message_rate,within_participant_difference_score,146,49,43,54,65.06707929867896,2,7.42785219972625e-15,0.27430816240066125,7.42785219972625e-15

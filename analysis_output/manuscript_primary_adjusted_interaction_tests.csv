@@ -1,0 +1,5 @@
+outcome,model_kind,n_obs,n_participants,interaction_df,wald_chi2,p_value,formula,p_holm
+character_connection,participant_clustered_OLS,292,146,2,8.400436936352756,0.014992301121986974,"Q(""character_connection"") ~ C(condition) * C(country) + C(character) + condition_position",0.059969204487947896
+satisfaction,participant_clustered_OLS,292,146,2,1.3661492334618615,0.5050617314255335,"Q(""satisfaction"") ~ C(condition) * C(country) + C(character) + condition_position",1.0
+knowledge_accuracy,participant_clustered_OLS,292,146,2,1.492165274789569,0.47422061295275575,"Q(""knowledge_accuracy"") ~ C(condition) * C(country) + C(character) + condition_position",1.0
+importance_change,first_interaction_HC3_OLS,146,146,2,1.3609397362694053,0.5063790051000729,"Q(""importance_change"") ~ C(condition) * C(country) + C(character)",1.0

@@ -1,0 +1,5 @@
+outcome,analysis_design,p_value,p_holm,rank_test,rank_test_p,rank_test_p_holm
+character_connection,within_participant_paired,1.1219415571567122e-06,4.487766228626849e-06,Wilcoxon signed-rank,1.4720141953828222e-06,5.888056781531289e-06
+satisfaction,within_participant_paired,3.648421923342211e-06,1.0945265770026633e-05,Wilcoxon signed-rank,5.618111722061378e-06,1.6854335166184135e-05
+knowledge_accuracy,within_participant_paired,0.3777491624467014,0.7554983248934029,Wilcoxon signed-rank,0.39340852552029293,0.7868170510405859
+importance_change,between_participants_first_interaction_only,0.6133054255752117,0.7554983248934029,Mann-Whitney U,0.6895142385198638,0.7868170510405859

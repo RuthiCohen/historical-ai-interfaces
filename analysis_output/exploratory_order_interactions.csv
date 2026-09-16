@@ -1,0 +1,4 @@
+outcome,moderator,analysis_design,interaction_df,wald_chi2,p_value,p_holm
+character_connection,condition_position,repeated_measures_condition_interaction,1,1.6367895675719515,0.20076652193246905,0.5285476040540469
+satisfaction,condition_position,repeated_measures_condition_interaction,1,0.5569415301575639,0.45549517802847594,0.5285476040540469
+knowledge_accuracy,condition_position,repeated_measures_condition_interaction,1,1.8295345273394956,0.17618253468468228,0.5285476040540469
