@@ -1,0 +1,9 @@
+moderator,outcome,n,robust_omnibus_p,family,p_holm_eight
+first_interface,character_connection,146,0.19626449282146877,order,1.0
+first_interface,satisfaction,146,0.7172329647828801,order,1.0
+country,character_connection,146,0.009350759071295027,country,0.07480607257036022
+country,satisfaction,146,0.5765488869883072,country,1.0
+ai_experience_category,character_connection,146,0.589516132190661,AI_experience,1.0
+ai_experience_category,satisfaction,146,0.9067311730161349,AI_experience,1.0
+collection_period_proxy,character_connection,146,0.06994276924975265,period,0.4895993847482686
+collection_period_proxy,satisfaction,146,0.37517403306537944,period,1.0

@@ -1,0 +1,162 @@
+{
+  "sample": {
+    "original_participants": 146,
+    "original_interactions": 292,
+    "quiz_items": 1460,
+    "coded_user_messages": 2182,
+    "LLM_exposure_items": 1445,
+    "LLM_audited_interactions": 289
+  },
+  "primary": [
+    {
+      "outcome": "character_connection",
+      "n_pairs": 146,
+      "mean_diff": 0.3219178082191781,
+      "ci95_low": 0.1967754729894662,
+      "ci95_high": 0.44706014344889,
+      "p_raw": 1.4720141953828222e-06,
+      "p_holm_family": 4.416042586148467e-06
+    },
+    {
+      "outcome": "satisfaction",
+      "n_pairs": 146,
+      "mean_diff": 0.36073059360730597,
+      "ci95_low": 0.21268418216962778,
+      "ci95_high": 0.5087770050449841,
+      "p_raw": 5.618111722061378e-06,
+      "p_holm_family": 1.1236223444122756e-05
+    },
+    {
+      "outcome": "knowledge_accuracy",
+      "n_pairs": 146,
+      "mean_diff": 0.020547945205479447,
+      "ci95_low": -0.025353810478284198,
+      "ci95_high": 0.0664497008892431,
+      "p_raw": 0.39340852552029293,
+      "p_holm_family": 0.39340852552029293
+    }
+  ],
+  "chat_preference": [
+    {
+      "outcome": "character_connection",
+      "n_pairs": 88,
+      "mean_diff": 0.19886363636363635,
+      "p_raw": 0.007032513936114461,
+      "p_holm_family": 0.028130055744457844
+    },
+    {
+      "outcome": "satisfaction",
+      "n_pairs": 88,
+      "mean_diff": 0.24242424242424246,
+      "p_raw": 0.009043371009131131,
+      "p_holm_family": 0.028130055744457844
+    }
+  ],
+  "typed_only": [
+    {
+      "outcome": "character_connection",
+      "n_pairs": 65,
+      "mean_diff": 0.13846153846153847,
+      "p_raw": 0.019487345742025982,
+      "p_holm_family": 0.02112033196102318
+    },
+    {
+      "outcome": "satisfaction",
+      "n_pairs": 65,
+      "mean_diff": 0.2512820512820513,
+      "p_raw": 0.01056016598051159,
+      "p_holm_family": 0.02112033196102318
+    }
+  ],
+  "emotional_absence": [
+    {
+      "group": "no_majority_emotional_either",
+      "outcome": "character_connection",
+      "n_pairs": 56,
+      "mean_diff": 0.5446428571428571,
+      "p_raw": 8.54566056551129e-05,
+      "p_holm_family": 0.0001709132113102258
+    },
+    {
+      "group": "no_majority_emotional_either",
+      "outcome": "satisfaction",
+      "n_pairs": 56,
+      "mean_diff": 0.3511904761904762,
+      "p_raw": 0.011760192598718768,
+      "p_holm_family": 0.011760192598718768
+    },
+    {
+      "group": "no_any_judge_emotional_either",
+      "outcome": "character_connection",
+      "n_pairs": 33,
+      "mean_diff": 0.5,
+      "p_raw": 0.0032179375405962185,
+      "p_holm_family": 0.006435875081192437
+    },
+    {
+      "group": "no_any_judge_emotional_either",
+      "outcome": "satisfaction",
+      "n_pairs": 33,
+      "mean_diff": 0.2626262626262626,
+      "p_raw": 0.11278451625935901,
+      "p_holm_family": 0.11278451625935901
+    }
+  ],
+  "positive_joint_threshold_4": [
+    {
+      "threshold": 4.0,
+      "n_participants": 146,
+      "avatar_high": 56,
+      "chat_high": 29,
+      "avatar_only": 33,
+      "chat_only": 6,
+      "both": 23,
+      "neither": 84,
+      "paired_risk_difference": 0.18493150684931506,
+      "approx_ci_low": 0.10571590925401754,
+      "approx_ci_high": 0.2641471044446126,
+      "p_raw": 1.429926123819314e-05,
+      "p_holm_3_thresholds": 2.859852247638628e-05
+    }
+  ],
+  "knowledge_tost": [
+    {
+      "outcome": "knowledge_accuracy",
+      "n": 146,
+      "margin": 0.1,
+      "mean_diff": 0.020547945205479447,
+      "ci90_low": -0.01789815123332775,
+      "ci90_high": 0.058994041644286635,
+      "TOST_p": 0.0004052673951996761,
+      "p_test_above_lower": 3.4768520898669406e-07,
+      "p_test_below_upper": 0.0004052673951996761,
+      "equivalent_at_alpha_05": true
+    },
+    {
+      "outcome": "knowledge_accuracy",
+      "n": 146,
+      "margin": 0.05,
+      "mean_diff": 0.020547945205479447,
+      "ci90_low": -0.01789815123332775,
+      "ci90_high": 0.058994041644286635,
+      "TOST_p": 0.10338651550135967,
+      "p_test_above_lower": 0.0014140461501695313,
+      "p_test_below_upper": 0.10338651550135967,
+      "equivalent_at_alpha_05": false
+    }
+  ],
+  "n_exploratory_wilcoxon_tests_in_notebook": 39,
+  "claims_not_supported": [
+    "more learning in Avatar",
+    "visual-only causal mechanism",
+    "no model-version effect",
+    "no fidelity issues"
+  ],
+  "caveats": [
+    "post hoc",
+    "many searches",
+    "voice and emotion subgroups are post-treatment",
+    "no knowledge pretest",
+    "LLM exposure categories require human validation"
+  ]
+}

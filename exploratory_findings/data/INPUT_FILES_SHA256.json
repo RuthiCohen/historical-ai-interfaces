@@ -1,0 +1,32 @@
+[
+  {
+    "role": "interactions",
+    "relative_to_exploratory_findings": "../analysis_output/analysis_merged_interaction_level.csv",
+    "sha256": "def498a24b8d878633650d84b5bb0d320397d314f0c72579e4c4c775425d6526",
+    "size_bytes": 219621
+  },
+  {
+    "role": "study",
+    "relative_to_exploratory_findings": "../data/study_data.csv",
+    "sha256": "85a461dba1e6e5b44b7ca92f5e50d0166f63fad0060edf3bd04a561e0bddf3bb",
+    "size_bytes": 5056127
+  },
+  {
+    "role": "messages",
+    "relative_to_exploratory_findings": "../data/coded-messages-three-models.csv",
+    "sha256": "8828c6714f61f2fa1f8d9bd876caa3d4eab4fcedd993516243b359a698aa6ec9",
+    "size_bytes": 1353896
+  },
+  {
+    "role": "knowledge",
+    "relative_to_exploratory_findings": "../analysis_output/knowledge_items.csv",
+    "sha256": "127df59283bc184dedb536db544184ef31591f7336690be0b0686b1d2f504a4f",
+    "size_bytes": 204545
+  },
+  {
+    "role": "exposure",
+    "relative_to_exploratory_findings": "data/exposure_quiz_items_JOINED.csv",
+    "sha256": "822ee4afe7a68da736ae8c761f6f71ad554e87af463c91c2e9c902d37883b0c2",
+    "size_bytes": 274433
+  }
+]

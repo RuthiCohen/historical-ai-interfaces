@@ -1,0 +1,2 @@
+n_participants,n00_neither,n01_chat_only,n10_avatar_only,n11_both,mcnemar_exact_p
+146,65,2,60,19,8.474124180146703e-16

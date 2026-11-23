@@ -1,0 +1,1642 @@
+{
+  "schema_version": "annotation-protocol-v2/human-answers/2",
+  "task": "exposure",
+  "packet_id": "exposure-real-2026-11-16",
+  "packet_sha256": "134be38ad3483f9bc4ef00b68ac4f5f652583718f61c2323344b2018b974cbf8",
+  "instructions_version": "2026-11-16 v2.5",
+  "instructions_sha256": "d505bed54deeb839b5d44110fb997888a654af14010ec896f118edadb69be595",
+  "app_version": "1.2.0",
+  "annotator_id": "annotator-b",
+  "instructions_read_at": "2026-11-19T11:28:43.211Z",
+  "started_at": "2026-11-19T11:28:43.212Z",
+  "updated_at": "2026-11-22T07:31:19.470Z",
+  "exported_at": "2026-11-22T07:31:21.876Z",
+  "progress": {
+    "total": 80,
+    "done": 80,
+    "flagged": 0,
+    "incomplete": 0,
+    "not_answered": 0
+  },
+  "cases": [
+    {
+      "case_id": "CV-0B41CEE4",
+      "character": "Ben Lesser",
+      "items": [
+        {
+          "case_id": "CV-0B41CEE4",
+          "item_id": "ben_lesser_q1",
+          "question_number": 1,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T11:36:28.734Z",
+          "updated_at": "2026-11-19T11:36:30.955Z",
+          "active_seconds": 53,
+          "evidence_lines": [
+            2
+          ],
+          "evidence_profile_ids": [
+            1
+          ]
+        },
+        {
+          "case_id": "CV-0B41CEE4",
+          "item_id": "ben_lesser_q2",
+          "question_number": 2,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "he mentions the murder of an infant, but he doesnt say not about the soilder nor about a specific event.",
+          "status": "done",
+          "first_answered_at": "2026-11-19T11:39:15.166Z",
+          "updated_at": "2026-11-19T11:40:47.835Z",
+          "active_seconds": 280,
+          "evidence_lines": [
+            8
+          ],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-0B41CEE4",
+          "item_id": "ben_lesser_q3",
+          "question_number": 3,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T11:42:51.282Z",
+          "updated_at": "2026-11-19T11:43:33.326Z",
+          "active_seconds": 140,
+          "evidence_lines": [],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-0B41CEE4",
+          "item_id": "ben_lesser_q4",
+          "question_number": 4,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "Mentions US but very hard to deduct. Without the answer I wouldn't be able to think. that the relocatiin.to US was due to libiration.",
+          "status": "done",
+          "first_answered_at": "2026-11-19T11:44:00.364Z",
+          "updated_at": "2026-11-19T11:45:24.624Z",
+          "active_seconds": 117,
+          "evidence_lines": [],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-0B41CEE4",
+          "item_id": "ben_lesser_q5",
+          "question_number": 5,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T11:46:13.134Z",
+          "updated_at": "2026-11-19T11:48:20.059Z",
+          "active_seconds": 171,
+          "evidence_lines": [
+            4
+          ],
+          "evidence_profile_ids": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CV-1FDBB6F0",
+      "character": "Mordechai Markel",
+      "items": [
+        {
+          "case_id": "CV-1FDBB6F0",
+          "item_id": "markel_q1",
+          "question_number": 1,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T11:48:44.843Z",
+          "updated_at": "2026-11-19T11:48:46.091Z",
+          "active_seconds": 24,
+          "evidence_lines": [
+            2
+          ],
+          "evidence_profile_ids": [
+            1
+          ]
+        },
+        {
+          "case_id": "CV-1FDBB6F0",
+          "item_id": "markel_q2",
+          "question_number": 2,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T11:53:02.215Z",
+          "updated_at": "2026-11-19T11:53:14.519Z",
+          "active_seconds": 154,
+          "evidence_lines": [
+            6
+          ],
+          "evidence_profile_ids": [
+            2
+          ]
+        },
+        {
+          "case_id": "CV-1FDBB6F0",
+          "item_id": "markel_q3",
+          "question_number": 3,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "family is deductible from a combination of answers L6 and L8.",
+          "status": "done",
+          "first_answered_at": "2026-11-19T11:54:22.629Z",
+          "updated_at": "2026-11-19T11:55:23.296Z",
+          "active_seconds": 129,
+          "evidence_lines": [
+            6,
+            8
+          ],
+          "evidence_profile_ids": [
+            3,
+            7,
+            8
+          ]
+        },
+        {
+          "case_id": "CV-1FDBB6F0",
+          "item_id": "markel_q4",
+          "question_number": 4,
+          "label": "appeared",
+          "availability_source": "profile",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T11:56:36.060Z",
+          "updated_at": "2026-11-19T11:59:22.498Z",
+          "active_seconds": 241,
+          "evidence_lines": [],
+          "evidence_profile_ids": [
+            7,
+            8
+          ]
+        },
+        {
+          "case_id": "CV-1FDBB6F0",
+          "item_id": "markel_q5",
+          "question_number": 5,
+          "label": "appeared",
+          "availability_source": "profile",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T11:59:48.344Z",
+          "updated_at": "2026-11-19T12:00:43.548Z",
+          "active_seconds": 80,
+          "evidence_lines": [],
+          "evidence_profile_ids": [
+            9,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CV-244EB2F2",
+      "character": "Mordechai Markel",
+      "items": [
+        {
+          "case_id": "CV-244EB2F2",
+          "item_id": "markel_q1",
+          "question_number": 1,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T12:02:13.389Z",
+          "updated_at": "2026-11-19T12:02:15.111Z",
+          "active_seconds": 80,
+          "evidence_lines": [
+            2,
+            44
+          ],
+          "evidence_profile_ids": [
+            1
+          ]
+        },
+        {
+          "case_id": "CV-244EB2F2",
+          "item_id": "markel_q2",
+          "question_number": 2,
+          "label": "appeared",
+          "availability_source": "conversation",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T12:04:21.134Z",
+          "updated_at": "2026-11-19T12:06:34.497Z",
+          "active_seconds": 178,
+          "evidence_lines": [
+            18
+          ],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-244EB2F2",
+          "item_id": "markel_q3",
+          "question_number": 3,
+          "label": "appeared",
+          "availability_source": "profile",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T12:05:49.562Z",
+          "updated_at": "2026-11-19T12:05:50.960Z",
+          "active_seconds": 99,
+          "evidence_lines": [],
+          "evidence_profile_ids": [
+            2,
+            3,
+            7,
+            8
+          ]
+        },
+        {
+          "case_id": "CV-244EB2F2",
+          "item_id": "markel_q4",
+          "question_number": 4,
+          "label": "appeared",
+          "availability_source": "profile",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T12:07:23.034Z",
+          "updated_at": "2026-11-19T12:07:24.016Z",
+          "active_seconds": 70,
+          "evidence_lines": [],
+          "evidence_profile_ids": [
+            3,
+            7,
+            8
+          ]
+        },
+        {
+          "case_id": "CV-244EB2F2",
+          "item_id": "markel_q5",
+          "question_number": 5,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T12:08:15.259Z",
+          "updated_at": "2026-11-19T12:09:12.611Z",
+          "active_seconds": 64,
+          "evidence_lines": [
+            18
+          ],
+          "evidence_profile_ids": [
+            9,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CV-37B2BD5B",
+      "character": "Mordechai Markel",
+      "items": [
+        {
+          "case_id": "CV-37B2BD5B",
+          "item_id": "markel_q1",
+          "question_number": 1,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T12:09:47.833Z",
+          "updated_at": "2026-11-19T12:09:50.006Z",
+          "active_seconds": 39,
+          "evidence_lines": [
+            2
+          ],
+          "evidence_profile_ids": [
+            1
+          ]
+        },
+        {
+          "case_id": "CV-37B2BD5B",
+          "item_id": "markel_q2",
+          "question_number": 2,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "hard to tell it is deductible",
+          "status": "done",
+          "first_answered_at": "2026-11-19T12:14:27.078Z",
+          "updated_at": "2026-11-19T12:15:48.171Z",
+          "active_seconds": 175,
+          "evidence_lines": [
+            4
+          ],
+          "evidence_profile_ids": [
+            2
+          ]
+        },
+        {
+          "case_id": "CV-37B2BD5B",
+          "item_id": "markel_q3",
+          "question_number": 3,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T12:16:41.578Z",
+          "updated_at": "2026-11-19T12:16:43.496Z",
+          "active_seconds": 55,
+          "evidence_lines": [
+            10,
+            12,
+            14,
+            16
+          ],
+          "evidence_profile_ids": [
+            2,
+            3,
+            8
+          ]
+        },
+        {
+          "case_id": "CV-37B2BD5B",
+          "item_id": "markel_q4",
+          "question_number": 4,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T12:16:48.377Z",
+          "updated_at": "2026-11-19T12:17:49.947Z",
+          "active_seconds": 67,
+          "evidence_lines": [
+            6,
+            10,
+            12
+          ],
+          "evidence_profile_ids": [
+            7,
+            8
+          ]
+        },
+        {
+          "case_id": "CV-37B2BD5B",
+          "item_id": "markel_q5",
+          "question_number": 5,
+          "label": "appeared",
+          "availability_source": "profile",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T12:17:55.171Z",
+          "updated_at": "2026-11-19T12:18:37.200Z",
+          "active_seconds": 47,
+          "evidence_lines": [],
+          "evidence_profile_ids": [
+            9,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CV-396823F8",
+      "character": "Mordechai Markel",
+      "items": [
+        {
+          "case_id": "CV-396823F8",
+          "item_id": "markel_q1",
+          "question_number": 1,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T12:20:13.807Z",
+          "updated_at": "2026-11-19T12:20:15.480Z",
+          "active_seconds": 34,
+          "evidence_lines": [
+            2,
+            4
+          ],
+          "evidence_profile_ids": [
+            1
+          ]
+        },
+        {
+          "case_id": "CV-396823F8",
+          "item_id": "markel_q2",
+          "question_number": 2,
+          "label": "appeared",
+          "availability_source": "conversation",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T12:20:35.544Z",
+          "updated_at": "2026-11-19T12:20:43.612Z",
+          "active_seconds": 28,
+          "evidence_lines": [
+            12,
+            14
+          ],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-396823F8",
+          "item_id": "markel_q3",
+          "question_number": 3,
+          "label": "appeared",
+          "availability_source": "profile",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T12:21:58.357Z",
+          "updated_at": "2026-11-19T12:21:59.397Z",
+          "active_seconds": 76,
+          "evidence_lines": [],
+          "evidence_profile_ids": [
+            2,
+            3,
+            7,
+            8
+          ]
+        },
+        {
+          "case_id": "CV-396823F8",
+          "item_id": "markel_q4",
+          "question_number": 4,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T12:22:23.909Z",
+          "updated_at": "2026-11-19T12:22:25.140Z",
+          "active_seconds": 25,
+          "evidence_lines": [
+            16
+          ],
+          "evidence_profile_ids": [
+            7,
+            8
+          ]
+        },
+        {
+          "case_id": "CV-396823F8",
+          "item_id": "markel_q5",
+          "question_number": 5,
+          "label": "appeared",
+          "availability_source": "profile",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-19T12:22:30.546Z",
+          "updated_at": "2026-11-19T12:23:03.019Z",
+          "active_seconds": 37,
+          "evidence_lines": [],
+          "evidence_profile_ids": [
+            9,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CV-3FDAD170",
+      "character": "Ben Lesser",
+      "items": [
+        {
+          "case_id": "CV-3FDAD170",
+          "item_id": "ben_lesser_q1",
+          "question_number": 1,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T10:39:23.123Z",
+          "updated_at": "2026-11-21T10:39:52.672Z",
+          "active_seconds": 60,
+          "evidence_lines": [
+            2
+          ],
+          "evidence_profile_ids": [
+            1
+          ]
+        },
+        {
+          "case_id": "CV-3FDAD170",
+          "item_id": "ben_lesser_q2",
+          "question_number": 2,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T10:43:34.359Z",
+          "updated_at": "2026-11-21T10:43:34.359Z",
+          "active_seconds": 39,
+          "evidence_lines": [],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-3FDAD170",
+          "item_id": "ben_lesser_q3",
+          "question_number": 3,
+          "label": "appeared",
+          "availability_source": "conversation",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T10:44:34.963Z",
+          "updated_at": "2026-11-21T10:46:52.118Z",
+          "active_seconds": 72,
+          "evidence_lines": [
+            14
+          ],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-3FDAD170",
+          "item_id": "ben_lesser_q4",
+          "question_number": 4,
+          "label": "deducible",
+          "availability_source": "conversation",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T10:44:41.842Z",
+          "updated_at": "2026-11-21T10:46:30.090Z",
+          "active_seconds": 70,
+          "evidence_lines": [
+            14
+          ],
+          "evidence_profile_ids": [
+            4
+          ]
+        },
+        {
+          "case_id": "CV-3FDAD170",
+          "item_id": "ben_lesser_q5",
+          "question_number": 5,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T10:45:31.596Z",
+          "updated_at": "2026-11-21T10:46:36.924Z",
+          "active_seconds": 59,
+          "evidence_lines": [
+            12
+          ],
+          "evidence_profile_ids": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CV-41FCCECE",
+      "character": "Mordechai Markel",
+      "items": [
+        {
+          "case_id": "CV-41FCCECE",
+          "item_id": "markel_q1",
+          "question_number": 1,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T10:47:00.634Z",
+          "updated_at": "2026-11-21T10:47:16.300Z",
+          "active_seconds": 22,
+          "evidence_lines": [
+            2
+          ],
+          "evidence_profile_ids": [
+            1
+          ]
+        },
+        {
+          "case_id": "CV-41FCCECE",
+          "item_id": "markel_q2",
+          "question_number": 2,
+          "label": "appeared",
+          "availability_source": "conversation",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T10:48:06.290Z",
+          "updated_at": "2026-11-21T10:49:15.825Z",
+          "active_seconds": 69,
+          "evidence_lines": [
+            14,
+            16,
+            18,
+            28
+          ],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-41FCCECE",
+          "item_id": "markel_q3",
+          "question_number": 3,
+          "label": "appeared",
+          "availability_source": "profile",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T10:49:03.375Z",
+          "updated_at": "2026-11-21T10:49:04.771Z",
+          "active_seconds": 60,
+          "evidence_lines": [],
+          "evidence_profile_ids": [
+            3,
+            4,
+            7,
+            8
+          ]
+        },
+        {
+          "case_id": "CV-41FCCECE",
+          "item_id": "markel_q4",
+          "question_number": 4,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T10:49:52.722Z",
+          "updated_at": "2026-11-21T10:49:54.968Z",
+          "active_seconds": 30,
+          "evidence_lines": [
+            24,
+            30
+          ],
+          "evidence_profile_ids": [
+            6,
+            7
+          ]
+        },
+        {
+          "case_id": "CV-41FCCECE",
+          "item_id": "markel_q5",
+          "question_number": 5,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T10:50:00.432Z",
+          "updated_at": "2026-11-21T10:50:30.007Z",
+          "active_seconds": 42,
+          "evidence_lines": [
+            20,
+            24
+          ],
+          "evidence_profile_ids": [
+            9,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CV-5E190F5E",
+      "character": "Ben Lesser",
+      "items": [
+        {
+          "case_id": "CV-5E190F5E",
+          "item_id": "ben_lesser_q1",
+          "question_number": 1,
+          "label": "appeared",
+          "availability_source": "profile",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T11:40:41.382Z",
+          "updated_at": "2026-11-21T11:42:10.408Z",
+          "active_seconds": 150,
+          "evidence_lines": [],
+          "evidence_profile_ids": [
+            1
+          ]
+        },
+        {
+          "case_id": "CV-5E190F5E",
+          "item_id": "ben_lesser_q2",
+          "question_number": 2,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T11:43:26.352Z",
+          "updated_at": "2026-11-21T11:43:26.352Z",
+          "active_seconds": 37,
+          "evidence_lines": [],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-5E190F5E",
+          "item_id": "ben_lesser_q3",
+          "question_number": 3,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T11:43:59.608Z",
+          "updated_at": "2026-11-21T11:43:59.608Z",
+          "active_seconds": 33,
+          "evidence_lines": [],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-5E190F5E",
+          "item_id": "ben_lesser_q4",
+          "question_number": 4,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T11:44:20.538Z",
+          "updated_at": "2026-11-21T11:44:20.538Z",
+          "active_seconds": 21,
+          "evidence_lines": [],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-5E190F5E",
+          "item_id": "ben_lesser_q5",
+          "question_number": 5,
+          "label": "appeared",
+          "availability_source": "profile",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T11:44:38.229Z",
+          "updated_at": "2026-11-21T11:44:40.141Z",
+          "active_seconds": 20,
+          "evidence_lines": [],
+          "evidence_profile_ids": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CV-6F7AFF1B",
+      "character": "Ben Lesser",
+      "items": [
+        {
+          "case_id": "CV-6F7AFF1B",
+          "item_id": "ben_lesser_q1",
+          "question_number": 1,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T11:45:32.525Z",
+          "updated_at": "2026-11-21T11:45:33.988Z",
+          "active_seconds": 54,
+          "evidence_lines": [
+            2
+          ],
+          "evidence_profile_ids": [
+            1
+          ]
+        },
+        {
+          "case_id": "CV-6F7AFF1B",
+          "item_id": "ben_lesser_q2",
+          "question_number": 2,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "the answers dont match by content, but the question is mentioned in the conversetion",
+          "status": "done",
+          "first_answered_at": "2026-11-21T11:46:27.636Z",
+          "updated_at": "2026-11-21T11:47:43.420Z",
+          "active_seconds": 132,
+          "evidence_lines": [
+            17
+          ],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-6F7AFF1B",
+          "item_id": "ben_lesser_q3",
+          "question_number": 3,
+          "label": "deducible",
+          "availability_source": "conversation",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T11:49:14.034Z",
+          "updated_at": "2026-11-21T11:49:20.180Z",
+          "active_seconds": 96,
+          "evidence_lines": [
+            21,
+            27
+          ],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-6F7AFF1B",
+          "item_id": "ben_lesser_q4",
+          "question_number": 4,
+          "label": "deducible",
+          "availability_source": "combined",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T11:50:05.403Z",
+          "updated_at": "2026-11-21T11:50:06.491Z",
+          "active_seconds": 46,
+          "evidence_lines": [
+            23,
+            27
+          ],
+          "evidence_profile_ids": [
+            4
+          ]
+        },
+        {
+          "case_id": "CV-6F7AFF1B",
+          "item_id": "ben_lesser_q5",
+          "question_number": 5,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T11:50:45.718Z",
+          "updated_at": "2026-11-21T11:50:47.965Z",
+          "active_seconds": 40,
+          "evidence_lines": [
+            4,
+            17,
+            21,
+            23
+          ],
+          "evidence_profile_ids": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CV-700C8017",
+      "character": "Ben Lesser",
+      "items": [
+        {
+          "case_id": "CV-700C8017",
+          "item_id": "ben_lesser_q1",
+          "question_number": 1,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T11:51:06.784Z",
+          "updated_at": "2026-11-21T11:51:07.915Z",
+          "active_seconds": 20,
+          "evidence_lines": [
+            2
+          ],
+          "evidence_profile_ids": [
+            1
+          ]
+        },
+        {
+          "case_id": "CV-700C8017",
+          "item_id": "ben_lesser_q2",
+          "question_number": 2,
+          "label": "appeared",
+          "availability_source": "conversation",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T11:51:20.703Z",
+          "updated_at": "2026-11-21T11:51:21.976Z",
+          "active_seconds": 14,
+          "evidence_lines": [
+            6
+          ],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-700C8017",
+          "item_id": "ben_lesser_q3",
+          "question_number": 3,
+          "label": "appeared",
+          "availability_source": "conversation",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T11:52:00.843Z",
+          "updated_at": "2026-11-21T11:52:17.491Z",
+          "active_seconds": 58,
+          "evidence_lines": [
+            12
+          ],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-700C8017",
+          "item_id": "ben_lesser_q4",
+          "question_number": 4,
+          "label": "appeared",
+          "availability_source": "conversation",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T11:52:41.565Z",
+          "updated_at": "2026-11-21T11:52:42.751Z",
+          "active_seconds": 22,
+          "evidence_lines": [
+            12,
+            14
+          ],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-700C8017",
+          "item_id": "ben_lesser_q5",
+          "question_number": 5,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-21T11:53:04.513Z",
+          "updated_at": "2026-11-21T11:53:05.884Z",
+          "active_seconds": 23,
+          "evidence_lines": [
+            8,
+            10
+          ],
+          "evidence_profile_ids": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CV-835EB175",
+      "character": "Mordechai Markel",
+      "items": [
+        {
+          "case_id": "CV-835EB175",
+          "item_id": "markel_q1",
+          "question_number": 1,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:11:26.979Z",
+          "updated_at": "2026-11-22T07:11:28.094Z",
+          "active_seconds": 32,
+          "evidence_lines": [
+            2
+          ],
+          "evidence_profile_ids": [
+            1
+          ]
+        },
+        {
+          "case_id": "CV-835EB175",
+          "item_id": "markel_q2",
+          "question_number": 2,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:12:17.962Z",
+          "updated_at": "2026-11-22T07:12:17.962Z",
+          "active_seconds": 50,
+          "evidence_lines": [],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-835EB175",
+          "item_id": "markel_q3",
+          "question_number": 3,
+          "label": "appeared",
+          "availability_source": "profile",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:12:59.101Z",
+          "updated_at": "2026-11-22T07:13:00.399Z",
+          "active_seconds": 42,
+          "evidence_lines": [],
+          "evidence_profile_ids": [
+            3,
+            8
+          ]
+        },
+        {
+          "case_id": "CV-835EB175",
+          "item_id": "markel_q4",
+          "question_number": 4,
+          "label": "appeared",
+          "availability_source": "profile",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:13:28.399Z",
+          "updated_at": "2026-11-22T07:13:29.763Z",
+          "active_seconds": 29,
+          "evidence_lines": [],
+          "evidence_profile_ids": [
+            3,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "case_id": "CV-835EB175",
+          "item_id": "markel_q5",
+          "question_number": 5,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:13:58.735Z",
+          "updated_at": "2026-11-22T07:14:00.106Z",
+          "active_seconds": 31,
+          "evidence_lines": [
+            4
+          ],
+          "evidence_profile_ids": [
+            4,
+            5,
+            9,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CV-B37CA2C1",
+      "character": "Ben Lesser",
+      "items": [
+        {
+          "case_id": "CV-B37CA2C1",
+          "item_id": "ben_lesser_q1",
+          "question_number": 1,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:14:09.927Z",
+          "updated_at": "2026-11-22T07:14:21.039Z",
+          "active_seconds": 15,
+          "evidence_lines": [
+            2,
+            4
+          ],
+          "evidence_profile_ids": [
+            1
+          ]
+        },
+        {
+          "case_id": "CV-B37CA2C1",
+          "item_id": "ben_lesser_q2",
+          "question_number": 2,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:14:41.860Z",
+          "updated_at": "2026-11-22T07:14:41.860Z",
+          "active_seconds": 23,
+          "evidence_lines": [],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-B37CA2C1",
+          "item_id": "ben_lesser_q3",
+          "question_number": 3,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:15:31.905Z",
+          "updated_at": "2026-11-22T07:15:31.905Z",
+          "active_seconds": 48,
+          "evidence_lines": [],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-B37CA2C1",
+          "item_id": "ben_lesser_q4",
+          "question_number": 4,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:15:51.622Z",
+          "updated_at": "2026-11-22T07:15:51.622Z",
+          "active_seconds": 15,
+          "evidence_lines": [],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-B37CA2C1",
+          "item_id": "ben_lesser_q5",
+          "question_number": 5,
+          "label": "appeared",
+          "availability_source": "profile",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:16:36.875Z",
+          "updated_at": "2026-11-22T07:16:38.214Z",
+          "active_seconds": 46,
+          "evidence_lines": [],
+          "evidence_profile_ids": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CV-C2F18D3A",
+      "character": "Ben Lesser",
+      "items": [
+        {
+          "case_id": "CV-C2F18D3A",
+          "item_id": "ben_lesser_q1",
+          "question_number": 1,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:16:58.185Z",
+          "updated_at": "2026-11-22T07:16:59.416Z",
+          "active_seconds": 21,
+          "evidence_lines": [
+            2,
+            12
+          ],
+          "evidence_profile_ids": [
+            1
+          ]
+        },
+        {
+          "case_id": "CV-C2F18D3A",
+          "item_id": "ben_lesser_q2",
+          "question_number": 2,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:20:20.158Z",
+          "updated_at": "2026-11-22T07:20:20.158Z",
+          "active_seconds": 96,
+          "evidence_lines": [],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-C2F18D3A",
+          "item_id": "ben_lesser_q3",
+          "question_number": 3,
+          "label": "appeared",
+          "availability_source": "conversation",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:21:04.194Z",
+          "updated_at": "2026-11-22T07:21:16.919Z",
+          "active_seconds": 57,
+          "evidence_lines": [
+            6,
+            8,
+            28
+          ],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-C2F18D3A",
+          "item_id": "ben_lesser_q4",
+          "question_number": 4,
+          "label": "appeared",
+          "availability_source": "conversation",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:21:48.312Z",
+          "updated_at": "2026-11-22T07:21:49.584Z",
+          "active_seconds": 34,
+          "evidence_lines": [
+            24,
+            28,
+            36
+          ],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-C2F18D3A",
+          "item_id": "ben_lesser_q5",
+          "question_number": 5,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:22:15.310Z",
+          "updated_at": "2026-11-22T07:22:17.606Z",
+          "active_seconds": 26,
+          "evidence_lines": [
+            10
+          ],
+          "evidence_profile_ids": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CV-CE63DAB9",
+      "character": "Ben Lesser",
+      "items": [
+        {
+          "case_id": "CV-CE63DAB9",
+          "item_id": "ben_lesser_q1",
+          "question_number": 1,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:22:20.111Z",
+          "updated_at": "2026-11-22T07:22:25.480Z",
+          "active_seconds": 8,
+          "evidence_lines": [
+            2
+          ],
+          "evidence_profile_ids": [
+            1
+          ]
+        },
+        {
+          "case_id": "CV-CE63DAB9",
+          "item_id": "ben_lesser_q2",
+          "question_number": 2,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:22:50.963Z",
+          "updated_at": "2026-11-22T07:22:50.963Z",
+          "active_seconds": 26,
+          "evidence_lines": [],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-CE63DAB9",
+          "item_id": "ben_lesser_q3",
+          "question_number": 3,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:23:19.648Z",
+          "updated_at": "2026-11-22T07:23:19.648Z",
+          "active_seconds": 45,
+          "evidence_lines": [],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-CE63DAB9",
+          "item_id": "ben_lesser_q4",
+          "question_number": 4,
+          "label": "deducible",
+          "availability_source": "profile",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:24:03.649Z",
+          "updated_at": "2026-11-22T07:24:05.378Z",
+          "active_seconds": 30,
+          "evidence_lines": [],
+          "evidence_profile_ids": [
+            4
+          ]
+        },
+        {
+          "case_id": "CV-CE63DAB9",
+          "item_id": "ben_lesser_q5",
+          "question_number": 5,
+          "label": "appeared",
+          "availability_source": "profile",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:24:31.332Z",
+          "updated_at": "2026-11-22T07:24:32.255Z",
+          "active_seconds": 26,
+          "evidence_lines": [],
+          "evidence_profile_ids": [
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CV-D3E8CC1F",
+      "character": "Mordechai Markel",
+      "items": [
+        {
+          "case_id": "CV-D3E8CC1F",
+          "item_id": "markel_q1",
+          "question_number": 1,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:24:40.576Z",
+          "updated_at": "2026-11-22T07:24:41.642Z",
+          "active_seconds": 9,
+          "evidence_lines": [
+            2
+          ],
+          "evidence_profile_ids": [
+            1
+          ]
+        },
+        {
+          "case_id": "CV-D3E8CC1F",
+          "item_id": "markel_q2",
+          "question_number": 2,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:25:31.328Z",
+          "updated_at": "2026-11-22T07:25:31.328Z",
+          "active_seconds": 95,
+          "evidence_lines": [
+            8,
+            16,
+            18
+          ],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-D3E8CC1F",
+          "item_id": "markel_q3",
+          "question_number": 3,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:27:06.402Z",
+          "updated_at": "2026-11-22T07:27:07.639Z",
+          "active_seconds": 51,
+          "evidence_lines": [
+            2,
+            20,
+            22,
+            24
+          ],
+          "evidence_profile_ids": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "case_id": "CV-D3E8CC1F",
+          "item_id": "markel_q4",
+          "question_number": 4,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:27:36.055Z",
+          "updated_at": "2026-11-22T07:27:37.310Z",
+          "active_seconds": 30,
+          "evidence_lines": [
+            6
+          ],
+          "evidence_profile_ids": [
+            3,
+            6,
+            7
+          ]
+        },
+        {
+          "case_id": "CV-D3E8CC1F",
+          "item_id": "markel_q5",
+          "question_number": 5,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:28:07.154Z",
+          "updated_at": "2026-11-22T07:28:08.267Z",
+          "active_seconds": 31,
+          "evidence_lines": [
+            12,
+            14
+          ],
+          "evidence_profile_ids": [
+            9,
+            12
+          ]
+        }
+      ]
+    },
+    {
+      "case_id": "CV-FADCFF7E",
+      "character": "Mordechai Markel",
+      "items": [
+        {
+          "case_id": "CV-FADCFF7E",
+          "item_id": "markel_q1",
+          "question_number": 1,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:28:21.996Z",
+          "updated_at": "2026-11-22T07:28:23.183Z",
+          "active_seconds": 15,
+          "evidence_lines": [
+            2,
+            20
+          ],
+          "evidence_profile_ids": [
+            1
+          ]
+        },
+        {
+          "case_id": "CV-FADCFF7E",
+          "item_id": "markel_q2",
+          "question_number": 2,
+          "label": "did_not_appear",
+          "availability_source": "none",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:28:49.995Z",
+          "updated_at": "2026-11-22T07:28:49.995Z",
+          "active_seconds": 28,
+          "evidence_lines": [
+            4
+          ],
+          "evidence_profile_ids": []
+        },
+        {
+          "case_id": "CV-FADCFF7E",
+          "item_id": "markel_q3",
+          "question_number": 3,
+          "label": "deducible",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:29:47.786Z",
+          "updated_at": "2026-11-22T07:29:49.017Z",
+          "active_seconds": 57,
+          "evidence_lines": [
+            2,
+            6,
+            18,
+            24
+          ],
+          "evidence_profile_ids": [
+            2,
+            3
+          ]
+        },
+        {
+          "case_id": "CV-FADCFF7E",
+          "item_id": "markel_q4",
+          "question_number": 4,
+          "label": "appeared",
+          "availability_source": "both",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:30:07.439Z",
+          "updated_at": "2026-11-22T07:30:08.162Z",
+          "active_seconds": 19,
+          "evidence_lines": [
+            26,
+            28
+          ],
+          "evidence_profile_ids": [
+            6,
+            7
+          ]
+        },
+        {
+          "case_id": "CV-FADCFF7E",
+          "item_id": "markel_q5",
+          "question_number": 5,
+          "label": "appeared",
+          "availability_source": "profile",
+          "review_required": false,
+          "note": "",
+          "status": "done",
+          "first_answered_at": "2026-11-22T07:31:16.875Z",
+          "updated_at": "2026-11-22T07:31:18.389Z",
+          "active_seconds": 73,
+          "evidence_lines": [
+            4
+          ],
+          "evidence_profile_ids": [
+            9,
+            12
+          ]
+        }
+      ]
+    }
+  ],
+  "practice": {
+    "case_id": "PRACTICE",
+    "character": "Mordechai Markel",
+    "items": [
+      {
+        "case_id": "PRACTICE",
+        "item_id": "markel_q5",
+        "question_number": 5,
+        "label": "appeared",
+        "availability_source": "both",
+        "review_required": false,
+        "note": "",
+        "status": "done",
+        "first_answered_at": "2026-11-19T11:29:52.858Z",
+        "updated_at": "2026-11-19T11:35:35.733Z",
+        "active_seconds": 419,
+        "evidence_lines": [
+          4,
+          6
+        ],
+        "evidence_profile_ids": [
+          5,
+          11,
+          12
+        ]
+      }
+    ]
+  }
+}

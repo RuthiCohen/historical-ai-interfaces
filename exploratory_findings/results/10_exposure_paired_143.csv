@@ -1,0 +1,2 @@
+family,group,outcome,n_pairs,avatar_mean,chat_mean,mean_diff,ci95_low,ci95_high,sd_diff,cohens_dz,wilcoxon_stat,p_raw,avatar_higher,chat_higher,ties
+exposure_coverage,paired_143,n_exposed,143,3.4475524475524475,3.4125874125874125,0.03496503496503497,-0.21039498860152006,0.28032505853159,1.4842486951012226,0.02355739646626432,3193.5,0.684233365271575,57,58,28

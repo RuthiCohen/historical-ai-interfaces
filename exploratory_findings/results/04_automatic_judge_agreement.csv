@@ -1,0 +1,4 @@
+coder_a,coder_b,n_messages,cohens_kappa_emotional_binary
+gemini-flash__tone,gpt-54__tone,2182,0.6092397608108326
+gemini-flash__tone,claude-sonnet-5__tone,2182,0.6407826864080359
+gpt-54__tone,claude-sonnet-5__tone,2182,0.6580899892408943

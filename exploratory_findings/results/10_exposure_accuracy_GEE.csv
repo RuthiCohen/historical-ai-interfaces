@@ -1,0 +1,7 @@
+exposure_definition,term,n_items,n_participants,OR,ci95_low,ci95_high,p,formula,p_holm_six_model_terms
+exposed,exposed,1430,143,4.275436019498134,2.6777019560344817,6.826507750658214,1.1607600007120718e-09,is_correct ~ exposed*C(condition) + C(stage_id_question)+C(country)+C(condition_position),5.803800003560359e-09
+exposed,C(condition)[T.Chat],1430,143,1.0438137921890391,0.6875516748781187,1.584676865134835,0.8404587428235872,is_correct ~ exposed*C(condition) + C(stage_id_question)+C(country)+C(condition_position),1.0
+exposed,exposed:C(condition)[T.Chat],1430,143,0.8482176035910592,0.5115900619356735,1.4063469104922226,0.5233912487499943,is_correct ~ exposed*C(condition) + C(stage_id_question)+C(country)+C(condition_position),1.0
+conversation_sufficient,conversation_sufficient,1430,143,3.97714794807411,2.749450598159387,5.7530423756146885,2.3068114545251156e-13,is_correct ~ conversation_sufficient*C(condition) + C(stage_id_question)+C(country)+C(condition_position),1.3840868727150693e-12
+conversation_sufficient,C(condition)[T.Chat],1430,143,0.8416700129747698,0.6286441933372563,1.1268829303588284,0.2469996682598954,is_correct ~ conversation_sufficient*C(condition) + C(stage_id_question)+C(country)+C(condition_position),0.9879986730395816
+conversation_sufficient,conversation_sufficient:C(condition)[T.Chat],1430,143,1.3103512982319097,0.7487815998781252,2.2930858945485846,0.3437983691314688,is_correct ~ conversation_sufficient*C(condition) + C(stage_id_question)+C(country)+C(condition_position),1.0

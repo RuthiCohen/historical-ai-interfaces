@@ -1,0 +1,243 @@
+{
+  "exposure": {
+    "n_human_A": 80,
+    "n_human_B": 80,
+    "n_shared": 80,
+    "shared_clusters": 16,
+    "n_LL_full_export": 1445,
+    "n_only_A": 0,
+    "n_only_B": 0,
+    "threeway": {
+      "A_vs_B": {
+        "n": 80,
+        "agree": 70,
+        "agreement": 0.875,
+        "kappa": 0.7233748271092669
+      },
+      "A_vs_LLM": {
+        "n": 80,
+        "agree": 70,
+        "agreement": 0.875,
+        "kappa": 0.7284453496266123
+      },
+      "B_vs_LLM": {
+        "n": 80,
+        "agree": 71,
+        "agreement": 0.8875,
+        "kappa": 0.7533401849948611
+      },
+      "LLM_vs_human_consensus": {
+        "n": 70,
+        "agree": 66,
+        "agreement": 0.9428571428571428,
+        "kappa": null
+      },
+      "human_consensus_exclusions": 10,
+      "A_positive_rate": null,
+      "B_positive_rate": null,
+      "LLM_positive_rate": null,
+      "A_vs_B_cluster_bootstrap": {
+        "agreement_ci95": [
+          0.8,
+          0.9375
+        ],
+        "kappa_ci95": [
+          0.5851974693138546,
+          0.8446058725344994
+        ],
+        "bootstrap_valid_kappa": 3000,
+        "bootstrap_trials": 3000,
+        "clusters": 16
+      }
+    },
+    "binary": {
+      "A_vs_B": {
+        "n": 80,
+        "agree": 73,
+        "agreement": 0.9125,
+        "kappa": 0.7539543057996484
+      },
+      "A_vs_LLM": {
+        "n": 80,
+        "agree": 71,
+        "agreement": 0.8875,
+        "kappa": 0.7260273972602739
+      },
+      "B_vs_LLM": {
+        "n": 80,
+        "agree": 72,
+        "agreement": 0.9,
+        "kappa": 0.758854559155991
+      },
+      "LLM_vs_human_consensus": {
+        "n": 73,
+        "agree": 68,
+        "agreement": 0.9315068493150684,
+        "kappa": null
+      },
+      "human_consensus_exclusions": 7,
+      "A_positive_rate": 0.775,
+      "B_positive_rate": 0.7625,
+      "LLM_positive_rate": 0.6625,
+      "A_vs_B_cluster_bootstrap": {
+        "agreement_ci95": [
+          0.8625,
+          0.9625
+        ],
+        "kappa_ci95": [
+          0.6218487394957981,
+          0.8747063429913859
+        ],
+        "bootstrap_valid_kappa": 3000,
+        "bootstrap_trials": 3000,
+        "clusters": 16
+      }
+    },
+    "adjacent_exact_disagreements": 9,
+    "total_exact_disagreements": 10,
+    "exposure_source": {
+      "n": 80,
+      "agree": 67,
+      "agreement": 0.8375,
+      "kappa": 0.7729257641921399
+    },
+    "labels_full_export": {
+      "appeared": 954,
+      "did_not_appear": 453,
+      "deducible": 38
+    },
+    "labels_shared": {
+      "A": {
+        "appeared": 56,
+        "did_not_appear": 18,
+        "deducible": 6
+      },
+      "B": {
+        "appeared": 56,
+        "did_not_appear": 19,
+        "deducible": 5
+      },
+      "LLM": {
+        "appeared": 53,
+        "did_not_appear": 27
+      }
+    }
+  },
+  "fidelity": {
+    "n_human_A": 129,
+    "n_human_B": 134,
+    "n_shared": 129,
+    "shared_clusters": 18,
+    "n_LL_full_export": 17357,
+    "n_only_A": 0,
+    "n_only_B": 5,
+    "threeway": {
+      "A_vs_B": {
+        "n": 129,
+        "agree": 104,
+        "agreement": 0.8062015503875969,
+        "kappa": 0.3148502230720203
+      },
+      "A_vs_LLM": {
+        "n": 129,
+        "agree": 86,
+        "agreement": 0.6666666666666666,
+        "kappa": 0.30217637438671524
+      },
+      "B_vs_LLM": {
+        "n": 129,
+        "agree": 85,
+        "agreement": 0.6589147286821705,
+        "kappa": 0.2178586192641587
+      },
+      "LLM_vs_human_consensus": {
+        "n": 104,
+        "agree": 77,
+        "agreement": 0.7403846153846154,
+        "kappa": null
+      },
+      "human_consensus_exclusions": 25,
+      "A_positive_rate": null,
+      "B_positive_rate": null,
+      "LLM_positive_rate": null,
+      "A_vs_B_cluster_bootstrap": {
+        "agreement_ci95": [
+          0.7580619478117937,
+          0.8606610833927298
+        ],
+        "kappa_ci95": [
+          0.1432778178972625,
+          0.44951054175482946
+        ],
+        "bootstrap_valid_kappa": 3000,
+        "bootstrap_trials": 3000,
+        "clusters": 18
+      }
+    },
+    "binary": {
+      "A_vs_B": {
+        "n": 129,
+        "agree": 122,
+        "agreement": 0.9457364341085271,
+        "kappa": 0.5110990795885222
+      },
+      "A_vs_LLM": {
+        "n": 129,
+        "agree": 114,
+        "agreement": 0.8837209302325582,
+        "kappa": 0.38198658575534966
+      },
+      "B_vs_LLM": {
+        "n": 129,
+        "agree": 115,
+        "agreement": 0.8914728682170543,
+        "kappa": 0.26345840130505754
+      },
+      "LLM_vs_human_consensus": {
+        "n": 122,
+        "agree": 111,
+        "agreement": 0.9098360655737705,
+        "kappa": null
+      },
+      "human_consensus_exclusions": 7,
+      "A_positive_rate": 0.9147286821705426,
+      "B_positive_rate": 0.9689922480620154,
+      "LLM_positive_rate": 0.875968992248062,
+      "A_vs_B_cluster_bootstrap": {
+        "agreement_ci95": [
+          0.9097744360902256,
+          0.9816555462885739
+        ],
+        "kappa_ci95": [
+          0.0,
+          0.7893709590266266
+        ],
+        "bootstrap_valid_kappa": 3000,
+        "bootstrap_trials": 3000,
+        "clusters": 18
+      }
+    },
+    "labels_full_export": {
+      "supported": 10589,
+      "unsupported": 3364,
+      "deducible": 3404
+    },
+    "labels_shared": {
+      "A": {
+        "supported": 102,
+        "deducible": 16,
+        "unsupported": 11
+      },
+      "B": {
+        "supported": 115,
+        "deducible": 10,
+        "unsupported": 4
+      },
+      "LLM": {
+        "supported": 78,
+        "unsupported": 16,
+        "deducible": 35
+      }
+    }
+  }
+}
